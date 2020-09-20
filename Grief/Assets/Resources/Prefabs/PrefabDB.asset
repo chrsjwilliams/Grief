@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: PrefabDB
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
-  _scenes: []
+  _scenes:
+  - {fileID: 6864735676389640259, guid: 56e2ca0175fb84f79a405beb1ad0beaa, type: 3}

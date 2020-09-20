@@ -15,8 +15,8 @@ public class TitleSceneScript : Scene<TransitionData>
 
     internal override void OnEnter(TransitionData data)
     {
-        title = GameObject.Find("TITLE").GetComponent<Text>();
-        click = GameObject.Find("Click").GetComponent<Text>();
+        //title = GameObject.Find("TITLE").GetComponent<Text>();
+        //click = GameObject.Find("Click").GetComponent<Text>();
 
         /*
         _tm.Do
@@ -65,8 +65,8 @@ public class TitleSceneScript : Scene<TransitionData>
         _tm.Update();
         if (Input.GetKeyDown(startGame) || Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
         {
-            Services.AudioManager.PlayClip(Clips.CLICK);
-            StartGame();
+            ///Services.AudioManager.PlayClip(Clips.CLICK);
+            //StartGame();
         }
     }
 }
